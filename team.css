@@ -1,0 +1,95 @@
+body {background-color: black;}
+.container {display: grid;
+  grid-template-columns: 400px 400px;
+  margin: 345px;
+  margin-top: 50px;
+}
+
+.hero {
+  margin-top: -52px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 white;
+  background-color: white;
+  margin: 70px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: green;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  background-color: #ea1538;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.logo {
+  color: white;
+  font-family: 'Babylonica', cursive;
+  font-family: 'Beau Rivage', cursive;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Noto Sans Arabic', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 63px;
+}
+span {
+  color: #ea1538;
+}
+.nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 40px;
+}
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+  width: 187px;
+  height: 57px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+.nav ul li a:hover{
+  color: #ea1538;
+  transition: .3s;
+}
+button {
+  border: none;
+  background-color: #ea1538;
+  padding: 12px 30px;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 17px;
+  transition: .4s;
+}
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.PLAYSTATION-4 {
+  margin-left: 90px;
+  color: white;
+}
